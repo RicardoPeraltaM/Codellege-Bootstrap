@@ -1,0 +1,22 @@
+.bg-custom{
+    background-color: #7952b3;
+    color: white;
+}
+.bg-custom2{
+    background-color: #7952b386;
+}
+.text-custom{
+    color: #7952b3;
+}
+
+/* cambiar fonfo de tooltip */
+.tooltip-inner{
+    background: rgba(255, 255, 255, 0.555);
+    color: black;
+}
+/* cambiar flecha de tooltip */
+
+.tooltip.bs-tooltip-auto[x-placement^="bottom"] .arrow::before, .tooltip.bs-tooltip-bottom .arrow::before{
+    border-bottom-color: rgba(255, 255, 255, 0);
+}
+
